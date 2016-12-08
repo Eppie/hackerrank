@@ -1,0 +1,6 @@
+_, k = map(int, input().split())
+p = list(map(int, input().split()))
+c = int(input())
+A = sum(p)
+A = A // 2 - (p[k] // 2)
+print([c - A, 'Bon Appetit'][c == A])
