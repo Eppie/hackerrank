@@ -1,0 +1,5 @@
+s, t = map(int, input().split())
+a, b = map(int, input().split())
+m, n = map(int, input().split())
+print(sum(s <= a + d <= t for d in map(int, input().split())))
+print(sum(s <= b + d <= t for d in map(int, input().split())))
